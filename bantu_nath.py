@@ -46,7 +46,7 @@ def main():
                 else:
                     break
             print(f"Total harga appetizer = {jumlah}")
-            return jumlah
+        return jumlah
 
     def pesan_main():
         jumlah = 0
@@ -63,7 +63,7 @@ def main():
                 else:
                     break
             print(f"Total harga main course = {jumlah}")
-            return jumlah
+        return jumlah
 
     def pesan_side():
         jumlah = 0
@@ -80,7 +80,7 @@ def main():
                 else:
                     break
             print(f"Total harga side dish = {jumlah}")
-            return jumlah
+        return jumlah
 
     def pesan_dessert():
         jumlah = 0
@@ -97,7 +97,7 @@ def main():
                 else:
                     break
             print(f"Total harga dessert = {jumlah}")
-            return jumlah
+        return jumlah
 
     def pesan_beverage():
         jumlah = 0
@@ -114,7 +114,7 @@ def main():
                 else:
                     break
             print(f"Total harga beverage = {jumlah}")
-            return jumlah
+        return jumlah
 
     totalbayar = pesan_appetizer() + pesan_main() + pesan_side() + pesan_dessert() + pesan_beverage()
     print("Total yang harus dibayar: ", totalbayar)
